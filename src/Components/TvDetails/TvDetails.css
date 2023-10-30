@@ -1,0 +1,71 @@
+
+.tvDetailsContainer{
+    margin-top: 60px;
+    height: fit-content !important;
+    margin-bottom: 55px;
+    
+}
+.detailTvTitle{
+    font-weight: bold;
+    font-family:  "Helvetica ";
+}
+.tvDetailsContainer h5{
+    color:  #949cb0;
+    font-size: 25px;
+}
+.tvDetailsContainer img{
+    border-radius: 20px;
+    height: 550px;
+}
+.tvDetailsContainer h3{
+    background-color: #09c;
+   /* font-weight: bold; */
+   color: white;
+   padding: 4px 7px;
+   width: fit-content;
+   border-radius: 8px;
+}
+.tvDetailsContainer h4{
+
+   color: white;
+   font-weight: bold;
+   font-family:  "Helvetica ";
+}
+.tvDetailsContainer p {
+    font-size: 20px ;
+    margin: 10px 0px;
+}
+.tvDetailsContainer h5 {
+    font-size: 22px ;
+    margin: 10px 0px;
+}
+.headerTv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width:576px){
+    .tvDetailsImg img {
+        width: 85% !important;
+        height: 400px;
+        margin-left: 35px !important;
+    }
+    .tvshowCloseIcon{
+        display: none;
+    }
+    .tvDetailsContainer {
+        margin-top: 20px;
+    }
+    .TvDetailsCaption{
+        padding-right: 2.5rem;
+    }
+    .headerTv h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+
+}

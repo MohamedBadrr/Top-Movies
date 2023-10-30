@@ -1,0 +1,16 @@
+.form-gp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center !important;
+    height: 79.1vh;
+}
+.registerLink{
+    text-decoration: none;
+}
+.loginT{
+    font-weight: bold !important;
+}
+.login{
+    margin-bottom: 37px;
+}

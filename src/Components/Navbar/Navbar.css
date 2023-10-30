@@ -1,0 +1,101 @@
+
+.fixedd{
+  position: fixed;
+  top: 0px;
+  margin-bottom: 20px;
+  background-color: #131722 !important;
+  padding: 5px 20px;
+}
+.navBg{
+  background-color: #131722 !important;
+  color: white;
+}
+
+.linklog{
+  text-decoration: none;
+  color: #949cb0 !important;
+  font-size: 22px;
+}
+.ulLinks{
+
+}
+.ulLinks a , .brand{
+  text-decoration: none;
+  color: #949cb0 ;
+  margin:0px 10px ;
+  padding-bottom: 1px;
+}
+.brand{
+  font-family: 'Segoe UI';
+}
+.active {
+  color: white !important;
+  border-bottom: 1px solid white;
+}
+i{
+  cursor: pointer;
+}
+.NavIcons{
+  justify-content: center;
+  align-items: center;
+}
+.NavIcons i{
+  font-size: 23px;
+}
+
+
+@media screen and (max-width:576px){
+  .fixIcons{
+      display: block !important;
+  }
+  .nav-item{
+    text-align: center !important;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .5s all;
+    font-weight: bold !important;
+    letter-spacing: 1.5px;
+    width: 100%;
+  }
+  .nav-item:hover{
+      background-color: #09c;
+  }
+  .active{
+    border-bottom: none;
+    width: 100%;
+  }
+  .ulLinks{
+    margin-bottom: 10px;
+  }
+ 
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+  .fixIcons{
+    display: block !important;
+}
+.nav-item{
+  text-align: center !important;
+  padding: 10px 0px;
+  margin: 5px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: .5s all;
+  
+}
+.nav-item:hover{
+    background-color: #09c;
+}
+.active{
+  border-bottom: none;
+  width: 100%;
+}
+.ulLinks{
+  margin-bottom: 10px;
+}
+}
+ 
+@media screen and (min-width:767px) and (max-width:992px){
+}

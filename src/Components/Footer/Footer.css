@@ -1,0 +1,19 @@
+
+.footer{
+    height: fit-content;
+    background-color: #131722 !important;
+    /* background-color: #0d46e0 !important; */
+    text-align: center;
+    padding: 5px 0px;
+}
+.footer .icons i{
+    margin: 8px 5px;
+    color: #09c;
+    transition: .5s;
+}
+.footer .icons i:hover{
+    color: #efefef;
+}
+.footer .credited{
+    margin: 3px 0px;
+}

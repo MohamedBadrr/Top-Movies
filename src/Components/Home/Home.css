@@ -1,0 +1,103 @@
+
+
+.brdr {
+    height: 2px;
+    background-color: #a8a8a83d;
+}
+.show{
+    display: flex;
+    align-items: center;
+}
+.btnWatchnow{
+    padding: 3px 5px;
+    color: rgb(92, 148, 166);
+    background-color:  #3433333d;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#searchInput{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.tvshowsTitle{
+    font-family: "Arial";
+    margin: auto;
+    font-weight: bold;
+    font-size: 40px ;
+    padding: 35px 0px;
+    border-top: 1px solid #71798e;;
+}
+/* .texting{
+    margin-top: -90px;
+} */
+.homeLoadingPage{
+    height: 68.5vh;
+    background-color: #1b1e28 ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeLoadingPage i{
+    color: #09c !important;
+  }
+  button a {
+    text-decoration: none;
+    transition: all .5s;
+  }
+  button a:hover {
+    color: white ;
+  }
+  .moviesmallcard i{
+    font-size: 22px;
+    transition: .6s;
+  }
+  .moviesmallcard i:hover{
+    font-size: 22px;
+    color: red;
+  }
+  .movie{
+    transition: .3s all;
+  }
+  .movie:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 15px #000;
+  }
+  .testinput{
+    margin-top: 50px !important;
+  }
+
+
+
+@media screen and (max-width:576px){
+    .show{
+      display: block;  
+    }
+    .caption{
+      margin-left: 10px;
+      display: none;
+    }
+    .brdr{
+      display: none;
+    }
+    .moviess{
+      margin-top: 5px !important;
+    }
+    .TV_SHOW{
+      padding-left: 30px;
+    }
+    .movie img{
+      border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+  .show{
+    display: block;  
+  }
+}
+
+@media screen and (min-width:767px) and (max-width:992px){
+  
+}

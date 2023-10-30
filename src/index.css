@@ -1,0 +1,28 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Segoe ui light';
+  background-color: #1b1e28 ;
+  color: white !important;
+}
+.secondColor{
+  color: #949cb0;
+}
+.btnColor{
+  color:#09c !important;
+}
+.loadingPage{
+  height: 60vh;
+  background-color: #1b1e28 ; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadingPage i{
+  color: #09c !important;
+}
+
+

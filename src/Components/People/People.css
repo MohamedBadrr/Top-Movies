@@ -1,0 +1,51 @@
+
+.personImg{
+    border-radius: 30px !important;
+}
+
+.namePerson{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    /* letter-spacing: 1.5px; */
+    font-size: 30px;
+    text-shadow: 0px 5px 10px #09c;
+}
+.workss li {
+    color: #09c;
+}
+
+
+@media screen and (max-width:576px){
+    .personImg{
+        height: 350px;
+        width: 90%;
+        margin: auto;
+    }
+    .personInfo .namePerson{
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 20px !important;
+    }
+    .personInfo h5{
+        margin-left: 15px;
+        font-size: 22px;
+    }
+    .personInfo h5{
+        margin-left: 15px;
+    }
+    .personInfo ul li{
+        font-size: 20px;
+    }
+    .PERSON{
+        padding: 0px 20px;
+    }
+    .allPersons{
+        margin-top: 7px !important;
+    }
+}
+
+@media screen and  (min-width:577px) and (max-width:768px){
+    .personImg{
+
+    }
+}
